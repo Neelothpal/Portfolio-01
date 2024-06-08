@@ -1,8 +1,12 @@
 import React from 'react'
+import ReactDOM from 'react-dom/client'
+import Home from './routes/home.jsx'
 
 const App = () => {
   return (
-    <div className='content' >Porfolio In Work</div>
+    <div className='content' >
+      <Home/>
+    </div>
   )
 }
 
